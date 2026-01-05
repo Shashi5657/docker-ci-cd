@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send("🚀 Hello World..!");
 });
 
-app.listen(8001, "0.0.0.0", () => {
+app.listen(3000, "0.0.0.0", () => {
   console.log("Server running on 8001");
 });
